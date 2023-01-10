@@ -1,6 +1,6 @@
-let weather={
-apiKey: "ff9b54d807d74b47e52fd001fabf3a48",
 
+
+let weather={
 fetchWeather: function() {
     fetch(
 "https://api.openweathermap.org/data/2.5/weather?q=Tampere&units=metric&appid=ff9b54d807d74b47e52fd001fabf3a48"
