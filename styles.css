@@ -1,0 +1,31 @@
+body {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Tampere.jpg');
+   background-size: 100%;
+}
+
+
+.weather {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2em;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 320px;
+    margin: 1em;
+}
+h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size:33px;
+    text-align: top;
+}
